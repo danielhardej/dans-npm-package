@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "mocha": "^10.2.0"
+  },
+  "name": "@danielhardej/dans-npm-package",
+  "description": "This is where I'm learning the hard way how to publish a package using GitHub Actions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielhardej/dans-npm-package.git"
+  },
+  "author": "Daniel Hardej",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielhardej/dans-npm-package/issues"
+  },
+  "homepage": "https://github.com/danielhardej/dans-npm-package#readme",
+  "publishConfig": {
+    "@danielhardej:registry": "https://npm.pkg.github.com"
+  }
+}
